@@ -1,0 +1,184 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: TestDrive
+  Id: g=5fadf762d1488238c85c209b2d026e8d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TestDrive",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5fadf762d1488238c85c209b2d026e8d",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "DeviceStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FaultCodeIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SimCounter",
+      "DataType": {
+       "IdType": 2,
+       "Id": "931bcab6ac43dac721e501ed3102c2a7",
+       "Namespace": 7
+      }
+     },{
+      "Name": "SIMTimer1",
+      "DataType": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      }
+     },{
+      "Name": "SIMTimer2",
+      "DataType": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      }
+     },{
+      "Name": "SIMTimer3",
+      "DataType": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TestDrive"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=35abdb68a6b3d9e38a906724c03655de
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "35abdb68a6b3d9e38a906724c03655de",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: COUNTER
+  Id: g=931bcab6ac43dac721e501ed3102c2a7
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "COUNTER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "931bcab6ac43dac721e501ed3102c2a7",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OV",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"COUNTER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

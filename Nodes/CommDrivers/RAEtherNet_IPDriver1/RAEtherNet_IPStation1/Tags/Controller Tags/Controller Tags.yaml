@@ -1,0 +1,411 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: VSD_110
+  Type: TestDrive
+  DataType: TestDrive
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "5fadf762d1488238c85c209b2d026e8d",
+     "Namespace": 7
+    },
+    "Body": {
+     "DeviceStatus": 0,
+     "FaultCode": 0,
+     "FaultCodeIndex": 0,
+     "OutputCurrent": 0.0,
+     "OutputPower": 0.0,
+     "OutputVoltage": 0.0,
+     "SimCounter": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "931bcab6ac43dac721e501ed3102c2a7",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     },
+     "SIMTimer1": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "SIMTimer2": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "SIMTimer3": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    }
+   }
+  Children:
+  - Name: DeviceStatus
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.DeviceStatus"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.FaultCode"
+  - Name: FaultCodeIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.FaultCodeIndex"
+  - Name: OutputCurrent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.OutputCurrent"
+  - Name: OutputPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.OutputPower"
+  - Name: OutputVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VSD_110.OutputVoltage"
+  - Name: SimCounter
+    Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "931bcab6ac43dac721e501ed3102c2a7",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.ACC"
+    - Name: CD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.CD"
+    - Name: CU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.CU"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.OV"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.PRE"
+    - Name: UN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SimCounter.UN"
+  - Name: SIMTimer1
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer1.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer1.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer1.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer1.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer1.TT"
+  - Name: SIMTimer2
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer2.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer2.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer2.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer2.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer2.TT"
+  - Name: SIMTimer3
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "35abdb68a6b3d9e38a906724c03655de",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer3.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer3.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer3.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer3.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VSD_110.SIMTimer3.TT"

@@ -1,0 +1,20 @@
+Name: Tags
+Id: g=6aedf60d69fc965bd36b4b8651b7bfd9
+Type: FolderType
+Children:
+- Name: TestVariable
+  Id: g=ed0e19e7435192c68812023225e8af73
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "50"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: SubVariables/SubVariables.yaml

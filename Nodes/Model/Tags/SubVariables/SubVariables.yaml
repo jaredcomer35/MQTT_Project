@@ -1,0 +1,8 @@
+Name: SubVariables
+Type: FolderType
+Children:
+- Name: SubVariable1
+  Id: g=ecf476216a0bee80f0e0f1d905e0a1de
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
